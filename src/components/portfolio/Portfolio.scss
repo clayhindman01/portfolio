@@ -1,3 +1,65 @@
+@import "../../global.scss";
+
 .portfolio {
-    background-color: lightskyblue;
+    background-color: $secondaryColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    color: $mainColor;
+
+    .slider {
+        height: 100%;
+        display:flex;
+        position: absolute;
+        left: 0;
+        
+        .container {
+            width: 200vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .background {
+                position: absolute;
+                width: calc(97% / 2);
+                height: 97%;
+                left: 0;
+                margin-bottom: 3vh;
+                margin-left: 3vh;
+                background-color: $thirdColor;
+                border-bottom-right-radius: 65%;
+                border-bottom-left-radius: 10%;
+
+                h1 {
+                    margin-left: 33%;
+                    font-size: 65px;
+                    color: $mainColor;
+                    margin-top: 5%;
+                    }
+            }
+
+            .chevronLeft {
+                z-index: 2;
+                width: 100px;
+                font-size: 60px;
+            }
+
+            .chevronRight {
+                z-index: 2;
+                width: 100px;
+                font-size: 60px;
+            }
+
+            .item {
+                display: flex;
+                background-color: $fourthColor;
+                width: 65%;
+                margin-top: 0%;
+                border-radius: 20px;
+                height: 65%;
+                z-index: 2;
+            }
+        }
+    }
 }

@@ -10,7 +10,7 @@ export default function Intro() {
         console.log(textRef)
         init(textRef.current, {
             showCursor: true, 
-            strings: ["Engineer.", "Student.", "Developer."],
+            strings: ["Engineer.", "Designer.", "Developer."],
             typeSpeed: 120,
             backDelay: 1500,
             backSpeed: 60,
