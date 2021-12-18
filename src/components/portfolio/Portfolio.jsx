@@ -10,7 +10,7 @@ export default function Portfolio() {
                     <div className="background">
                         <h1>Portfolio</h1>
                     </div>
-                    <ChevronLeft className="chevronLeft" />
+                    <ChevronLeft className="chevronLeft arrow" />
                     <div className="item">
                         <div className="left">
                             
@@ -19,10 +19,12 @@ export default function Portfolio() {
                             
                         </div>
                     </div>
-                    <ChevronRight className='chevronRight'/>
+                    <ChevronRight className='chevronRight arrow'/>
                 </div>
             </div>
         </div>
     )
 }
+
+// TODO: Add slider functionality.
  

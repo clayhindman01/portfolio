@@ -39,16 +39,16 @@
                     }
             }
 
-            .chevronLeft {
+            .arrow {
                 z-index: 2;
                 width: 100px;
                 font-size: 60px;
-            }
+                opacity: 0.9;
+                color: $mainColor;
 
-            .chevronRight {
-                z-index: 2;
-                width: 100px;
-                font-size: 60px;
+                &:hover {
+                    font-size: 66px;
+                }
             }
 
             .item {
