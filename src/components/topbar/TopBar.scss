@@ -1,5 +1,12 @@
 @import "../../global.scss";
 
+@media only screen and (max-width: 800px) {
+    .itemContainer {
+        display: none;
+    }
+    
+}
+
 .topbar {
     width: 100%;
     height: 70px;
