@@ -4,10 +4,15 @@
     background-color: $secondaryColor;
     display: flex;
     color: $mainColor;
+<<<<<<< HEAD
     height: 100%;
         
     .left {
         display: flex;
+=======
+        
+    .left {
+>>>>>>> 9dcad970f8ae26c68c13c2becda2617ad602428d
         flex: 50%;
         position: relative;
         overflow: hidden;
@@ -25,12 +30,16 @@
             justify-content: center;
 
             h1 {
+<<<<<<< HEAD
                 display: flex;
                 justify-content: flex-start;
+=======
+>>>>>>> 9dcad970f8ae26c68c13c2becda2617ad602428d
                 margin-top: 5%;    
                 font-size: 65px;
             }
         }
+<<<<<<< HEAD
     }
 
     .right {
@@ -44,5 +53,20 @@
         background-color: blue;
     }
 
+=======
+    }
+
+    .right {
+        flex: 50%;
+        position: relative;
+    }
+
+    .container {
+        width: 100%;
+        height: 100%;
+        background-color: blue;
+    }
+
+>>>>>>> 9dcad970f8ae26c68c13c2becda2617ad602428d
 
 }
