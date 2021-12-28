@@ -7,12 +7,15 @@ export default function Portfolio() {
         <div className="portfolio" id="portfolio">
             <div className="left">
                 <div className="background">
-                    <h1>Portfolio</h1>
                     
                 </div>
             </div>
 
             <div className="right">
+
+            </div>
+
+            <div className='content'>
 
             </div>
         </div>
