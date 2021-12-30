@@ -25,11 +25,16 @@ export default function Intro() {
                 </div>
             </div>
             <div className="right">
+                {/* <div className="iconContainer">
+                    <a href="">
+                        <img src="assets/GitHub-Mark-120px-plus.png" alt="github" />
+                    </a>
+                </div> */}
                 <div className="wrapper">
                     <h1>Clay Hindman</h1>
                     <h3>Software <span ref={textRef}></span></h3>
                 </div>
-                <a href="#portfolio">
+                <a href="#aboutMe">
                     <img src="assets/down.png" alt="down"/>
                 </a>
             </div>

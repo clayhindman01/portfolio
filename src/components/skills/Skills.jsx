@@ -7,7 +7,9 @@ export default function Skills() {
             </h1>
             <div className="skillIcons">
                 <div className="githubIcon item">
-                    <img src="assets/GitHub-Mark-120px-plus.png" alt="github" />
+                    <a href="https://www.github.com/clayhindman01">
+                        <img src="assets/GitHub-Mark-120px-plus.png" alt="github" />
+                    </a>
                 </div>
 
                 <div className="reactIcon item">
