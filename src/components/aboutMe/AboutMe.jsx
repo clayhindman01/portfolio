@@ -3,11 +3,11 @@ import './AboutMe.scss'
 export default function AboutMe() {
     return (
         <div className="aboutMe" id="aboutMe">
-            <div className="left">
-
-            </div>
 
             <div className="contentWrapper">
+                <div className="background">
+                    
+                </div>
                 <div className='content'>
                     <h1>About Me</h1>
 

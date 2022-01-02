@@ -13,6 +13,7 @@ export default function Skills() {
                 </div>
 
                 <div className="reactIcon item">
+                    
                     <img src="assets/pngaaa.com-2507930.png" alt="react" />
                 </div>
 

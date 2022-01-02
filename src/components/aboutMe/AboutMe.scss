@@ -4,19 +4,37 @@
     background-color: $secondaryColor;
     display: flex;
     color: $mainColor;
-    height: 100%;
+    height: 100vh;
+
+    .background {
+        width: calc((100% / 2) - 3vh);
+        height: 97%;
+        margin-bottom: 3vh;
+        margin-left: 3vh;
+        background-color: $thirdColor;
+        border-bottom-right-radius: 50%;
+        border-bottom-left-radius: 10%;
+        position: relative;
+        left:100;
+
+    }
 
     .contentWrapper {
         position: relative;
         width: 100%;
+        overflow: hidden;
 
         .content {
             width: 60%;
             height: 50%;
+            position: relative;
+            top: -90%;
             background-color: $fourthColor;
             border-radius: 24px;
             justify-content: center;
             margin: 15vh auto;
+            z-index: 2;
+            box-shadow: -5px 7px 1px 4px $secondaryColor; 
 
             h1 {
                 color: $mainColor;
