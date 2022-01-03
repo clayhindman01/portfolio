@@ -1,5 +1,12 @@
 @import "../../global.scss";
 
+@media (max-width: 600px) {
+    .background {
+        width: 100%;
+        margin: 0;
+    } 
+}
+
 .aboutMe {
     background-color: $secondaryColor;
     display: flex;

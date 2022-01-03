@@ -15,7 +15,7 @@ export default function AboutMe() {
 
                     <br /><br />
 
-                    In my free time, I enjoy fly fishing and skeet shooting. I also love to go rock climbing and hiking whenever I have the time to do it.
+                    In my free time, I enjoy fly fishing and skeet shooting. I also love to go rock climbing and hiking whenever I have the time to do it. I also enjoy cooking and trying different foods.
                     </p>
                 </div>
             </div>

@@ -1,5 +1,19 @@
 @import "../../global.scss";
 
+@media (max-width: 600px) {
+    .intro {
+        flex-direction:column-reverse;
+    
+        .left {
+
+            .imgContainer {
+                width: 100%;
+                margin: 0;
+            }
+        }
+    } 
+}
+
 .intro {
     background-color: $secondaryColor;
     color: $mainColor;
@@ -10,7 +24,7 @@
         overflow: hidden;
 
         .imgContainer {
-            width: 97%;
+            width: 97.2%;
             height: 97%;
             margin-top: 10vh;
             margin-left: 3vh;

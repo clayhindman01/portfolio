@@ -1,10 +1,11 @@
 @import "../../global.scss";
 
-@media only screen and (max-width: 800px) {
-    .itemContainer {
-        display: none;
+@media (max-width: 380px) {
+    .logo {
+        display: block;
+        height: 100px;
+        
     }
-    
 }
 
 .topbar {
@@ -16,6 +17,7 @@
     top: 0;
     z-index: 5;
     transition: all 0.75s ease;
+    //overflow: hidden;
 
     .wrapper {
         padding: 10px 30px;

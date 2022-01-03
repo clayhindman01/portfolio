@@ -2,6 +2,7 @@
 
 .skills {
     background-color: $secondaryColor;
+    overflow: hidden; 
     
     h1 {
         margin: 0 auto;
@@ -22,6 +23,7 @@
         max-width: 130vh;
         margin-left: auto;
         margin-right: auto;
+        overflow:hidden;
 
         .item {
             padding: 70px 50px 40px 50px;
