@@ -4,15 +4,12 @@
     background-color: $secondaryColor;
     
     h1 {
-        display: flex;
         margin: 0 auto;
         color: $mainColor;
-        justify-content: center;
+        text-align: center;
         padding: 5vh 7vh;
         font-size: 60px;
-        width: 100vh;
         border-radius: 2%;
-        border-bottom: 2px solid $mainColor;
     }
 
     .skillIcons {
@@ -39,8 +36,8 @@
             }
         }
 
-        .javaIcon {
-            
+        .jsIcon {
+           width: 140px; 
         }
     }
 }
