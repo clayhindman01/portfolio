@@ -12,11 +12,41 @@
             }
 
             .content {
-                width: 85% !important;
+                width: 80% !important;
+                display: relative;
+                top: -102% !important;
                 box-shadow: none !important;
+                height: fit-content !important;
+                padding: 2% !important;
+
+                h1 {
+                    font-size: 40px !important;
+                }
+                
+                p {
+                    font-size: 18px !important;
+                }
             }
         }
     } 
+}
+
+@media only screen and (max-height: 400px) {
+    .content {
+        height: fit-content !important;
+        width: 85% !important;
+        display: relative;
+        top: -110% !important;
+        box-shadow: none !important;
+
+        h1 {
+            font-size: 35px !important;
+        }
+
+        p {
+            font-size: 18px !important;
+        }
+    }
 }
 
 .aboutMe {
