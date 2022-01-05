@@ -1,14 +1,24 @@
 @import "../../global.scss";
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .intro {
         flex-direction:column-reverse;
     
         .left {
 
             .imgContainer {
-                width: 90%;
-                margin-right: 3vh;
+                width: 94% !important;
+                margin: 11% 0 0 0 !important;
+                margin-left: 3% !important;
+            }
+        }
+    
+        .right {
+
+            .wrapper {
+                padding-left: 7% !important;
+                align-items: flex-start;
+                justify-content: flex-start;
             }
         }
     } 

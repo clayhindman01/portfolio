@@ -1,18 +1,19 @@
 @import "../../global.scss";
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .aboutMe {
 
         .contentWrapper {
 
             .background {
-                width: 100%;
-                margin-right: 3vh;
+                width: 94% !important;
+                margin: 0 0 !important;
+                margin-left: 3% !important;
             }
 
             .content {
-                left: 0;
-                height: 1000px;
+                width: 85% !important;
+                box-shadow: none !important;
             }
         }
     } 
@@ -29,6 +30,7 @@
         height: 97%;
         margin-bottom: 3vh;
         margin-left: 3vh;
+        margin-right: 0;
         background-color: $thirdColor;
         border-bottom-right-radius: 50%;
         border-bottom-left-radius: 10%;
