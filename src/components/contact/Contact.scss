@@ -2,13 +2,21 @@
 
 
 @media only screen and (max-width: 600px) {
+
     .background {
         flex-direction: column !important;
         height: fit-content !important;
+        margin-left: 10px;
+        margin-right: 10px;
 
         .leftContact {
             h3 {
                 margin-top: 3% !important;
+                margin-left: 1% !important;
+            }
+            h1 {
+                margin-left: 0 !important;
+                font-size: 40px !important;
             }
         }
         

@@ -2,19 +2,23 @@
 
 @media only screen and (max-width: 600px) {
     .aboutMe {
-
         .contentWrapper {
 
             .background {
                 width: 94% !important;
                 margin: 0 0 !important;
                 margin-left: 3% !important;
+                position: relative !important;
+                top: 0 !important;
+                left: 100 !important;
+                background-color: $thirdColor !important;
+
             }
 
             .content {
                 width: 80% !important;
                 display: relative;
-                top: -102% !important;
+                top: -5% !important;
                 box-shadow: none !important;
                 height: fit-content !important;
                 padding: 2% !important;
