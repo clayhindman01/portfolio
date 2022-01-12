@@ -20,5 +20,10 @@
             scroll-snap-align: start;
         }
     }
+
+    .skills {
+        min-height: 100vh;
+        height: fit-content;
+    }
 }
 

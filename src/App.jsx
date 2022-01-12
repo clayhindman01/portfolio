@@ -25,7 +25,7 @@ function App() {
       <div className="sections">
         <Intro />
         <AboutMe />
-        <Skills />
+        <Skills className="skills"/>
         {/* <Portfolio /> */}
         <Contact />
       </div>

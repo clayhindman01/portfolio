@@ -11,6 +11,10 @@
                 margin: 15px 0 0 0 !important;
                 margin-left: 3% !important;
                 padding-top: 12% !important;
+
+                img {
+                    height: 110% !important;
+                }
             }
         }
     
@@ -72,7 +76,8 @@
 
             img {
                 padding-top: 8vh;
-                height: 70%;
+                height: 85%;
+                margin-left: -10vh;
                 margin-bottom: 6vh;
             }
         }
