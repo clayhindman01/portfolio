@@ -20,9 +20,16 @@ export default function Portfolio() {
                     <h2>Expense Tracker</h2>
                 </div>
 
-                <div className="pantry even item">
+                <div className="chat-app even item">
+                    <a href="https://chat-app-five-chi.vercel.app/">
+                        <img src="assets/chat-app.png" alt="Chat App"></img>
+                    </a>
+                    <h2>Pantry</h2>
+                </div>
+
+                <div className="pantry odd item">
                     <a href="https://pantry-seven.vercel.app/">
-                        <img src="assets/pantry.png" alt="Expense Report"></img>
+                        <img src="assets/pantry.png" alt="Pantry"></img>
                     </a>
                     <h2>Pantry</h2>
                 </div>
