@@ -24,7 +24,7 @@ export default function Portfolio() {
                     <a href="https://chat-app-five-chi.vercel.app/">
                         <img src="assets/chat-app.png" alt="Chat App"></img>
                     </a>
-                    <h2>Pantry</h2>
+                    <h2>Chat App</h2>
                 </div>
 
                 <div className="pantry odd item">
